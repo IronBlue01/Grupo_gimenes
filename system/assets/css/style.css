@@ -25,7 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     /* background-color: #222222 !important; */
-    background: url('../img/background-3.png');
+    background: url('../img/background-3.jpg');
     background-size: 1800px;
 }
 
@@ -60,7 +60,7 @@ body {
 
 
 .masthead .btn {
-    background-color: #4c94be;
+    background-color: #195a80;
     border-radius: 0.3rem;
     transition: background-color 150ms;
 }
@@ -187,7 +187,7 @@ body {
 }
 
 .board-info-bar .btn:hover {
-    background-color: #006aa8;
+    background-color: #074970;
 }
 
 .private-btn-icon,
@@ -419,7 +419,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
     font-size: 9pt;
     color: #fff;
     padding: 10px;
-    background-color: #006aa7;
+    background-color: #074970;
 }
 
 .title-card{
@@ -428,6 +428,17 @@ Remove or comment-out the code block below to see how the browser will fall-back
     outline: none;
     font-size: 15pt;
     width: 100%;
- 
 }
 
+textarea{
+    border: 1px solid #dddddd;
+    outline: none;
+    border-radius: 13px;
+    font-size: 10pt;
+    padding: 5px;
+}
+
+#status{
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
